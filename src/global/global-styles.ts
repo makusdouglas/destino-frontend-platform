@@ -5,7 +5,7 @@ export const GlobalStyles = createGlobalStyle`
     html {
         box-sizing: border-box;
         font-size: 16px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Inter', sans-serif;
     }
     *, *:before, *:after {
         box-sizing: inherit;
