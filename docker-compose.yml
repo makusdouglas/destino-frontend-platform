@@ -1,0 +1,11 @@
+version: "3.4"
+services:
+ destino-frontend:
+   image: destino-frontend
+   container_name: destino-frontend-container
+   build:
+     context: .
+     dockerfile: Dockerfile
+   ports:
+     - 3000:80
+   tty: true
